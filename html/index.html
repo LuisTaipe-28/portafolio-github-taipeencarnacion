@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Mi proyecto web — diseño moderno y estructura limpia." />
+  <title>Mi Proyecto Web</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- Fondo decorativo -->
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-glow" aria-hidden="true"></div>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <nav>
+    <span class="nav-logo">Proyecto.</span>
+    <ul class="nav-links">
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#features">Servicios</a></li>
+      <li><a href="#stats">Números</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="inicio">
+    <div class="hero-content">
+      <div class="hero-tag">Bienvenido al proyecto</div>
+
+      <h1>
+        Diseño que<br />
+        <em>inspira</em> y<br />
+        conecta.
+      </h1>
+
+      <p>
+        Una base sólida, bien estructurada y lista para crecer.
+        HTML semántico, CSS organizado y JavaScript limpio.
+      </p>
+
+      <div class="hero-cta">
+        <a href="#features" class="btn btn-primary">Ver servicios</a>
+        <a href="#contacto" class="btn btn-outline">Contactar →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FEATURES ===================== -->
+  <section class="section" id="features">
+    <p class="section-label reveal">Lo que ofrecemos</p>
+    <h2 class="section-title reveal">Todo lo que<br />necesitas.</h2>
+    <p class="section-sub reveal">
+      Cada pieza construida con cuidado, desde la estructura
+      hasta los últimos detalles visuales.
+    </p>
+
+    <div class="cards-grid">
+
+      <div class="card reveal">
+        <div class="card-icon">⚡</div>
+        <h3>Alto Rendimiento</h3>
+        <p>Código limpio y optimizado para que tu sitio cargue rápido en cualquier dispositivo.</p>
+      </div>
+
+      <div class="card reveal">
+        <div class="card-icon">🎨</div>
+        <h3>Diseño Moderno</h3>
+        <p>Paletas de color, tipografía y animaciones que crean una experiencia memorable.</p>
+      </div>
+
+      <div class="card reveal">
+        <div class="card-icon">📐</div>
+        <h3>Estructura Clara</h3>
+        <p>Carpetas bien organizadas: HTML, CSS y JS separados para fácil mantenimiento.</p>
+      </div>
+
+      <div class="card reveal">
+        <div class="card-icon">📱</div>
+        <h3>Responsivo</h3>
+        <p>Adaptado para móvil, tablet y escritorio. Funciona en todos los tamaños de pantalla.</p>
+      </div>
+
+      <div class="card reveal">
+        <div class="card-icon">♿</div>
+        <h3>Accesible</h3>
+        <p>HTML semántico con roles ARIA, contraste adecuado y navegación por teclado.</p>
+      </div>
+
+      <div class="card reveal">
+        <div class="card-icon">🔧</div>
+        <h3>Fácil de Extender</h3>
+        <p>Variables CSS, JS modular y comentarios claros para que puedas escalar sin dolor.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===================== STATS ===================== -->
+  <div class="stats-bar" id="stats">
+    <div class="stats-inner">
+
+      <div class="stat">
+        <span class="stat-number" data-target="120" data-suffix="+">0</span>
+        <span class="stat-label">Proyectos entregados</span>
+      </div>
+
+      <div class="stat">
+        <span class="stat-number" data-target="98" data-suffix="%">0</span>
+        <span class="stat-label">Satisfacción del cliente</span>
+      </div>
+
+      <div class="stat">
+        <span class="stat-number" data-target="5" data-suffix=" años">0</span>
+        <span class="stat-label">De experiencia</span>
+      </div>
+
+      <div class="stat">
+        <span class="stat-number" data-target="40" data-suffix="K+">0</span>
+        <span class="stat-label">Líneas de código</span>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ===================== CONTACTO ===================== -->
+  <section class="section" id="contacto">
+    <div class="contact-box reveal">
+      <p class="section-label">¿Listo para empezar?</p>
+      <h2>Hablemos de<br />tu próximo proyecto.</h2>
+      <p>
+        Estamos a un mensaje de distancia. Sin compromisos,
+        solo una buena conversación.
+      </p>
+      <button class="btn btn-primary" id="contactBtn">
+        Enviar mensaje ✉️
+      </button>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer>
+    <p>© 2025 <span>Mi Proyecto Web</span> — Hecho con cuidado y ☕</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
